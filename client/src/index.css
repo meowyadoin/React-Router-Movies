@@ -21,7 +21,7 @@ body {
   position: relative;
   margin: 1rem auto;
   width:50%;
-  border-radius: 12%;
+  border-radius: 12px;
   box-shadow: 5px 5px black;
   text-align:center;
   opacity: 0.7;
