@@ -3,12 +3,16 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: url(https://coxrare.files.wordpress.com/2018/12/adobestock_162467459.jpeg?w=1200&h=627&crop=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
   
 }
 
 .movie-card {
-  color:black;
-  background-color: orange;
+  color:white;
+  background-color: rgb(156, 52, 52);
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -28,7 +32,7 @@ a {
 }
 
 .movie-card:hover{
-  color:white;
+  color:black;
 }
 
 .movie-director {
@@ -50,6 +54,7 @@ a {
   align-items: center;
   justify-content: space-between;
   opacity: 0.7;
+  color:white;
 }
 
 .saved-list h3 {
@@ -75,14 +80,16 @@ a {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: black;
+  color:white;
 }
 .save-button:hover {
-  background-color: green;
+  background-color: yellow;
   color: white;
 }
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background-color: black;
+  color:white;
 }
